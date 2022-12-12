@@ -6,7 +6,7 @@ export const Button = ({ children, onClick, ariaLabel, ...props }) => {
       {...props}
       aria-label={ariaLabel}
       type="button"
-      className="shadow-3xl gray"
+      className="blue"
       onClick={onClick}
     >
       {children}
